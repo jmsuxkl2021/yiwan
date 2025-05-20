@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>磁力链接批量转 MP3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>磁力链接批量转 MP3</h1>
+  <textarea id="magnetInput" placeholder="每行一个磁力链接"></textarea><br>
+  <input id="bitrate" type="text" value="192k" style="width:80px">
+  <label for="bitrate">比特率</label>
+  <button id="startBtn">开始处理</button>
+
+  <h2>进行中任务</h2>
+  <div id="tasks"></div>
+
+  <h2>历史记录</h2>
+  <div id="history"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>

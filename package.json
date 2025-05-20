@@ -1,0 +1,15 @@
+{
+  "name": "magnet-audio-extractor",
+  "version": "1.0.0",
+  "description": "本地批量磁力链接音频提取工具",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "webtorrent-hybrid": "^1.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  }
+}

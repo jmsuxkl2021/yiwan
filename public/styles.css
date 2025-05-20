@@ -1,0 +1,5 @@
+body { font-family: sans-serif; margin: 20px; }
+textarea { width: 80%; height: 80px; }
+.task, .history-item {
+  border: 1px solid #ccc; padding: 8px; margin: 6px 0;
+}
